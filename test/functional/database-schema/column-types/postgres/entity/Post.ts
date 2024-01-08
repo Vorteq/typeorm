@@ -231,6 +231,9 @@ export class Post {
     @Column("tstzrange")
     tstzrange: string
 
+    @Column("tstzmultirange")
+    tstzmultirange: string
+
     @Column("daterange")
     daterange: string
 

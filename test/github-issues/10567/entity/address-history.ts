@@ -34,6 +34,10 @@ export class AddressHistory {
     tstzrange: string
 
     @Index({ spatial: true })
+    @Column({ type: "tstzmultirange" })
+    tstzmultirange: string
+
+    @Index({ spatial: true })
     @Column({ type: "daterange" })
     daterange: string
 

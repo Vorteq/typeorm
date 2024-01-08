@@ -179,6 +179,7 @@ export class PostgresDriver implements Driver {
         "numrange",
         "tsrange",
         "tstzrange",
+        "tstzmultirange",
         "daterange",
         "geometry",
         "geography",

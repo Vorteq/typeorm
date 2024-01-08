@@ -170,6 +170,7 @@ export type SimpleColumnType =
     | "numrange" // postgres
     | "tsrange" // postgres
     | "tstzrange" // postgres
+    | "tstzmultirange" // postgres
     | "daterange" // postgres
 
     // other types
